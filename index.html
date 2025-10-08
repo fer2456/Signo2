@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IGNO Studio - Creatividad Integral</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background: #222;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header img {
+      width: 150px;
+      border-radius: 50%;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      line-height: 1.7;
+      font-size: 1.1em;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 280px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Colores por sección */
+    #diseno2d { background: #ffeb3b; color: #111; }
+    #diseno3d { background: #4caf50; }
+    #foto-video { background: #9c27b0; }
+    #programacion { background: #2196f3; }
+    #impresion-arte { background: #ff9800; color: #111; }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    @media (max-width: 700px) {
+      .gallery img {
+        width: 90%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpg" alt="Logo IGNO">
+    <h1>IGNO Studio</h1>
+    <p>Diseño. Código. Arte. Innovación que deja huella.</p>
+  </header>
+
+  <section id="diseno2d">
+    <h2>Diseños 2D</h2>
+    <p>Desde logotipos hasta identidad visual completa. Creamos piezas con carácter, coherencia y propósito. Tu marca se verá tan profesional como tu visión.</p>
+    <div class="gallery">
+      <img src="https://picsum.photos/400/250?random=11" alt="Diseño 2D 1">
+      <img src="https://picsum.photos/400/250?random=12" alt="Diseño 2D 2">
+      <img src="https://picsum.photos/400/250?random=13" alt="Diseño 2D 3">
+    </div>
+  </section>
+
+  <section id="diseno3d">
+    <h2>Diseños 3D</h2>
+    <p>Modelamos tus ideas con precisión y detalle. Desde renders arquitectónicos hasta personajes y animaciones, damos vida a lo que imaginas.</p>
+    <div class="gallery">
+      <img src="https://picsum.photos/400/250?random=21" alt="Diseño 3D 1">
+      <img src="https://picsum.photos/400/250?random=22" alt="Diseño 3D 2">
+      <img src="https://picsum.photos/400/250?random=23" alt="Diseño 3D 3">
+    </div>
+  </section>
+
+  <section id="foto-video">
+    <h2>Fotografía y Video</h2>
+    <p>Producción visual profesional con storytelling real. Capturamos la esencia de tu proyecto con planos, color y ritmo que transmiten más que mil palabras.</p>
+    <div class="gallery">
+      <img src="https://picsum.photos/400/250?random=31" alt="Foto Video 1">
+      <img src="https://picsum.photos/400/250?random=32" alt="Foto Video 2">
+      <img src="https://picsum.photos/400/250?random=33" alt="Foto Video 3">
+    </div>
+  </section>
+
+  <section id="programacion">
+    <h2>Programación e IA</h2>
+    <p>Desarrollo de software, automatización, bots y sistemas inteligentes. Convertimos lógica en innovación funcional que impulsa tus proyectos al siguiente nivel.</p>
+    <div class="gallery">
+      <img src="https://picsum.photos/400/250?random=41" alt="Programación 1">
+      <img src="https://picsum.photos/400/250?random=42" alt="Programación 2">
+      <img src="https://picsum.photos/400/250?random=43" alt="Programación 3">
+    </div>
+  </section>
+
+  <section id="impresion-arte">
+    <h2>Impresiones y Arte</h2>
+    <p>De lo digital al mundo real. Impresiones, cuadros, vinilos, camisetas y más. Cada pieza es un testimonio físico de la creatividad que representas.</p>
+    <div class="gallery">
+      <img src="https://picsum.photos/400/250?random=51" alt="Arte 1">
+      <img src="https://picsum.photos/400/250?random=52" alt="Arte 2">
+      <img src="https://picsum.photos/400/250?random=53" alt="Arte 3">
+    </div>
+  </section>
+
+  <footer>
+    © 2025 IGNO Studio — Creatividad sin límites.
+  </footer>
+
+</body>
+</html>
